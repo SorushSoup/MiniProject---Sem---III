@@ -11,7 +11,28 @@ def poisoned_painting():
     slow_print("[Senior Detective]: He had been poisoned, but the real mystery is how.")
     slow_print("[Senior Detective]: The suspects are the gallery curator, an art collector, and the artist herself.")
     slow_print("[Senior Detective]: Watch your back on this one. I’ve got a bad feeling about it.")
-    
+    print(''' ________________________
+|.----------------------.|
+||                      ||
+||       ______         ||
+||     .;;;;;;;;.       ||
+||    /;;;;;;;;;;;\     ||
+||   /;/`    `-;;;;; . .||
+||   |;|__  __  \;;;|   ||
+||.-.|;| e`/e`  |;;;|   ||
+||   |;|  |     |;;;|'--||
+||   |;|  '-    |;;;|   ||
+||   |;;\ --'  /|;;;|   ||
+||   |;;;;;---'\|;;;|   ||
+||   |;;;;|     |;;;|   ||
+||   |;;.-'     |;;;|   ||
+||'--|/`        |;;;|--.||
+||;;;;    .     ;;;;.\;;||
+||;;;;;-.;_    /.-;;;;;;||
+||;;;;;;;;;;;;;;;;;;;;;;||
+||jgs;;;;;;;;;;;;;;;;;;;||
+'------------------------'
+             ''')
     # Present suspects
     slow_print("\n[You]: Time to question the suspects and investigate the crime scene.")
     
