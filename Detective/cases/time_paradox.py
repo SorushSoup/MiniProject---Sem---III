@@ -14,7 +14,38 @@ def time_paradox():
     slow_print("[You]: That’s impossible.")
     slow_print("[Senior Detective]: Exactly. Both bodies are identical, down to the last detail.")
     slow_print("[Senior Detective]: We’re calling it the Time Paradox case. Let’s figure out how a person can die in two places at once. Welcome to the craziest mystery you’ve ever encountered.")
-
+    print('''             O
+                            (_)
+                          _ )_( _
+                        /`_) H (_`\
+                      .' (  { }  ) '.
+                    _/ /` '-'='-' `\ \_
+                   [_.'   _,...,_   '._]
+                    |   .:"`````":.   |
+                    |__//_________\\__|
+                     | .-----------. |
+                     | |  .-"""-.  | |
+                     | | /    /  \ | |
+                     | ||-   <   -|| |
+                     | | \    \  / | |
+                     | |[`'-...-'`]| |
+                     | | ;-.___.-; | |
+                     | | |  |||  | | |
+                     | | |  |||  | | |
+                     | | | _|||_ | | |
+                     | | | >===< | | |
+                     | | | |___| | | |
+                     | | |  |||  | | |
+                     | | |  ;-;  | | |
+                     | | | (   ) | | |
+                     | | |  '-'  | | |
+                     | | '-------' | |
+                    _| '-----------' |_
+                   [= === === ==== == =]
+                   [__--__--___--__--__]
+                  /__-___-___-___-___-__\
+                 `"""""""""""""""""""""""`
+             ''')
     # Present suspects
     slow_print("\n[You]: I’ll start by questioning the suspects.")
     
