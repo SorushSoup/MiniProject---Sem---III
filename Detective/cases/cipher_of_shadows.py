@@ -12,14 +12,37 @@ def cipher_of_shadows():
     slow_print("[Senior Detective]: The problem is, his work was so sensitive that whatever’s hidden in that message could cause massive damage.")
     slow_print("[You]: What do we know about his current projects?")
     slow_print("[Senior Detective]: He was working on something big—something he couldn’t talk about. We need to crack that cipher before anyone else does.")
-    
+    print('''__]_____]____]_____]______]_______]_____]______]______]______]___]
+                         _                       _______  |||"||;;|.||##||=|||
+              _                           _     |   *  3| |||-|| =|-||==||+|||
+              ____________       _              |       | |||_||__|_||__||_|||
+            |`.   --__     `.        _______    |       | ||================||
+            |  `._____________`.  .'|.-----.|   _ ======| ||| | -|&|^^|!!|-|||
+            |   | .-----------.| |  ||     ||  (o))   _ | ||| |**|=|+-|##|=|||
+            |   | |  .-------.|| |  ||     ||  /||   / \`._|  .-.|_|__|__|_|||
+            |   | |  |       |||_`..|'_____'| //||___\_/.'\| (( ))==========||
+            |   | |`.|  ==== ||| | `---------(o)||         \  /-'-=|+|.-|-'|||
+            |`. | |`.|_______|||/|______________||__.--._ (o)/|=|;:|-|&&|&&|||
+            |  `|_|===========||_|                 (____)-.'(o)_|__|_|__|__|||
+            |   | |  .-------.||                           `._\=============||
+            |   | |  |       |||                             `.     |       ||
+            |   | |`.|  ==== |||`._____________________________`.  o|o      ||
+            |`. | |`.|_______||| |._.----------------.__.-------.|__|_______||
+            |  `|_|===========|| || '----------------'  | .---. ||  __
+            |   | |  .-------.|| ||               |     |_______||.'\.'.
+            |   | |  |       ||| || ______________|     | .---. ||'.__.'
+            |   | |`.|  ==== ||| ||                `.   |_______|||  _ |
+             `. | |`.|_______||| ||                  `. | .---. |||_  ||
+               `|_|========LGB||`||                    `|_______|||____|
+                                   `.                    `.
+                                     `.____________________`.''')
     # Present evidence
     slow_print("\n[Senior Detective]: Here’s what we found at the scene: A coded letter, a strange key, and his computer—locked with another encryption.")
     slow_print("[Senior Detective]: There were also three people who visited him in the last 48 hours. Start wherever you think is best.")
     
     # Evidence and suspects
     print("\nEvidence:")
-    print("1. Coded Letter")
+    print("1. Coded Letter'')
     print("2. Strange Key")
     print("3. Locked Computer")
 
