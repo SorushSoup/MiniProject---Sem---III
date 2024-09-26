@@ -11,7 +11,32 @@ def disappearing_artist():
     slow_print("[Senior Detective]: No signs of struggle, no ransom notes, nothing. Just an empty studio.")
     slow_print("[Senior Detective]: We’ve got three suspects: his wife, his agent, and a rival artist.")
     slow_print("[Senior Detective]: Let’s figure out what happened. Was it an abduction, or did he just vanish into thin air?")
-
+    print('''                
+              |\                     ___
+              | )                   /   '-.
+           ||.+ L                  (__     \
+           || '-.\              ___)a \__   \
+           ||    `-.           /.__      J__//--.
+           |J       `-.            |_       '-._ \        _.------.
+           | L        `            L__.     _/`----.____ /  b a (__c>
+          |J \      __,-_____      __._>\__/            ( c      " h\
+          L L \   ./--+///___)_.--'      /\     -.       \ d e f g  /
+         J  J  |       \\__//                     `--(_.( `--.....-'
+         |   \ J           )_     _,- \__           \    `--'
+         L    | L       `    )-)_/      \_._..--''-..)
+        J     | |        \                [_._._,.. _]
+        |     | |      ,,'              _/           ( 
+   __   | _   | J    ,' \  _________   /    \  \     |  _______a:f____
+        |     J_.L_.'    \            /     _\_/\    ( 
+        L          |      \          /    _|    /    \_
+       F           J       J        (      (_   L      `-.
+      /             L       \        \__.    `.  \__      \
+     /              J        ^          \      )   \____   \
+    /                L            .---.-)_   _/         )   \
+   /_                |           (    `-' \__/.         L__\_\
+                     |            `-.__.--.___) ---   / (_/  J
+                     |_                              (     .-' ---
+              ''')
     # Present suspects
     slow_print("\n[You]: I’ll start by questioning the suspects.")
     
