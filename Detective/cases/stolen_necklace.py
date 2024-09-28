@@ -10,7 +10,26 @@ def stolen_necklace():  #replace with case_stolen_necklace
     slow_print("[Senior Detective]: Three suspects were in the house when it happened: the maid, the gardener, and her niece.")
     slow_print("[Senior Detective]: You need to figure out who took it.")
     slow_print("[Senior Detective]: I've got a hunch, but I'll let you handle this. Ask questions, gather clues, and don't mess this up.")
-    
+    print('''
+
+                o--o--=g=--o--o     
+               /      .'       \
+               o      '.       o
+                \             /
+                 o           o
+                  \         /
+                   o       o
+                    \     /
+                     o   o
+                      \_/
+                       =
+                      .^.
+                     '   '
+                     '. .'
+                       !    lc
+                       
+
+             ''')
     # Present suspects
     slow_print("\n[You]: Let's start by questioning the suspects.")
     
