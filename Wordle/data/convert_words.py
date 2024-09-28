@@ -1,20 +1,26 @@
-def main():
-    input_file_path = "data/word_source.txt"
-    output_file_path = "data/wordle_words.txt"
-    five_letter_words = []
+# Function to read words from 'words.txt', separate them, and save to 'wordle_words.txt'
+def separate_words_from_file(input_file, output_file):
+    try:
+        # Open the input file and read the line
+        with open(input_file, 'r') as infile:
+            line = infile.readline().strip()  # Read the first line and remove any extra whitespace
+        
+        # Split the line into words
+        words = line.split()
+        
+        # Open the output file and write each word on a new line
+        with open(output_file, 'w') as outfile:
+            for word in words:
+                outfile.write(word + '\n')  # Write each word followed by a newline
+        
+        print(f"Words have been separated and saved to '{output_file}'.")
 
-    with open(input_file_path, "r") as f:
-        for line in f.readlines():
-            word = line.strip()
-            if len(word) == 5:
-                five_letter_words.append(word)
+    except FileNotFoundError:
+        print(f"Error: The file '{input_file}' does not exist.")
 
-    with open(output_file_path, "w") as f:
-        for word in five_letter_words:
-            f.write(word + "\n")
+# Specify the input and output files
+input_file = 'data/words.txt'
+output_file = 'data/wordle_words.txt'
 
-    print(f"Found {len(five_letter_words)} five-letter words.")
-
-
-if __name__ == "__main__":
-    main()
+# Call the function
+separate_words_from_file(input_file, output_file)
