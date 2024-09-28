@@ -11,7 +11,28 @@ def mirror_of_lies():
     slow_print("[Senior Detective]: The police ruled it a suicide, but something feels off. Her diary suggests she believed she was losing her mind.")
     slow_print("[Senior Detective]: But here’s the kicker – everyone close to her is hiding something. The more you talk to them, the less sense it all makes.")
     slow_print("[Senior Detective]: We need to get to the bottom of this. Was it really suicide, or was Anna driven to her death by something much darker?")
+    print('''      //-----------\\
+                 //       | |   | \\
+               //  \__   /   \ /  | \\
+              ||       \|     |  / __||
+              ||         \    | |_/  ||
+              ||\     __  |   |/ __  ||
+              ||  \__/   \|   |_/  \_||
+              ||  _    ___|  /  \_   ||
+              ||_/ \__/   |/_     \_/||
+              ||          o  \      _||
+              ||\       / |    \___/ ||
+              ||  \___/   |     \   /||
+              ||     |   / \_    )-<_||
+              ||    /  /     \  /    ||
+               \\ /   |      _><    //
+               //\\   |     /   \ //\\
+              ||   \\-----------//   ||
+              ||                     ||
+             /||\                   /||\
+            /____\                 /____\
 
+             ''')
     slow_print("\n[You]: Let’s start by talking to her closest contacts.")
     
     # Present suspects
